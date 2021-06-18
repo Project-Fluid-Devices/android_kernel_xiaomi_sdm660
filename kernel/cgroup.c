@@ -234,6 +234,7 @@ struct cgroup_namespace init_cgroup_ns = {
 static u16 have_canfork_callback __read_mostly;
 
 static struct file_system_type cgroup2_fs_type;
+
 static struct cftype cgroup_dfl_base_files[];
 static struct cftype cgroup_legacy_base_files[];
 
